@@ -30,13 +30,18 @@ a {
   text-decoration: none;
   color: #fff;
 }
-.btn-1 {
+.btn {
   /* color: #fff */
   padding: 12px 36px;
   border-radius: 10px;
   gap: 10px;
   color: #fff;
   background-color: #4e47ff;
+  display: flex;
+  align-items: center;
+}
+main{
+  margin: 0 141px 0 159px;
 }
 .hero-tag {
   font-size: 65px;
@@ -51,12 +56,45 @@ a {
 .hero-content h1 {
   text-align: center;
 }
-.btn-2 {
-  /* color: #4e47ff; */
+/* .btn-2 {
+  color: #4e47ff;
   padding: 12px 36px;
   border-radius: 10px;
   gap: 10px;
   color: #fff;
   background-color: #4e47ff;
   margin-top: 37px;
+} */
+.action-prv{
+  display: flex;
+  justify-content: space-between;
+  margin: 216px 0px;
+  padding: 141px 62.5px;
+}
+.action-info{
+ display: flex;
+ flex-direction: column;
+ align-items: baseline;
+}
+.action-info h2{
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 62.5px;
+  /* margin-bottom: 23px; */
+}
+.action-info p{
+  font-size: 24px;
+  font-weight: 400;
+  color: #25243280;
+  margin-bottom: 23px;
+}
+/* .action-info .btn-3 {
+  padding: 12px 36px;
+  border-radius: 10px;
+  gap: 10px;
+  color: #fff;
+  background-color: #4e47ff;
+} */
+.action-img img{
+  border-radius: 48px;
 }
