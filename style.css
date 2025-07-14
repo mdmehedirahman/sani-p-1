@@ -7,6 +7,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  background-color: #F5F8FF;
 }
 
 .hero-sec {
@@ -41,7 +42,8 @@ a {
   align-items: center;
 }
 main{
-  margin: 0 141px 0 159px;
+  padding: 0 141px 0 159px;
+  /* background-color: #F5F8FF; */
 }
 .hero-tag {
   font-size: 65px;
@@ -131,3 +133,52 @@ main{
   font-weight: 700;
   color: #4E47FF;
 }
+
+.review-sec{
+  /* display: flex; */
+  margin: 137px 0px;
+  /* padding: 24px; */
+  /* text-align: center; */
+}
+.review-head{
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  /* padding: 24px; */
+}
+.customer-review{
+  /* display: flex; */
+  background-color: #fff;
+  border-radius: 14px;
+  /* padding-top: 24px; */
+}
+.ratting{
+  display: flex;
+  color: #FFB805;
+  padding: 24px;
+}
+.customer-info{
+  display: flex;
+  gap: 12px;
+  padding: 24px;
+}
+.customar-img img{
+  border-radius: 100%;
+}
+h4{
+  padding: 0 24px;
+}
+.review-pera{
+  padding: 8px 24px 0 24px;
+}
+.customar-review-sec{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.customar-name-date h5{
+  color: #757575;
+}
+.customar-name-date p {
+  color: #B3B3B3;
+} 
