@@ -215,4 +215,86 @@ h4 {
   display: flex;
   align-items: center;
 }
+.info-section{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 92px;
+}
+.info-head h1{ 
+  font-size: 97px;
+  font-weight: 700;
+  padding: 200px 0;
+}
+.form-container {
+  width: 497px;
+  height: 490px;
+  padding: 20px;
+}
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.contact-form label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 20px 32px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 20px;
+  resize: none;
+}
+
+.contact-form button {
+  margin: 19px;
+  padding: 19px ;
+  background-color: #5e5eff;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4444ee;
+}
+.message{
+   padding: 20px 257px 85px 32px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 20px;
+  resize: none;
+}
+footer{
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot-head{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+.foot-pera{
+  color: #8987A1;
+}
+.foot-bar{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  color: #8987A1;
+  margin-top: 20px;
+  margin-bottom: 103px;
+}
